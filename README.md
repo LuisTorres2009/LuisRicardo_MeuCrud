@@ -36,12 +36,13 @@ Esta versão do projeto cumpre todos os requisitos dos três níveis de desafio 
 ### 2. Instalação das dependências do App
 No terminal, dentro da pasta do projeto, execute:
 ```
+cd frontend
 npm install
 
 ```
 
 ### 3. Instalação das ferramentas globais (API)
-Se ainda não possuir, instale o JSON Server e o Localtunnel:
+Se ainda não possuir, instale o JSON Server e o Localtunnel na raíz do projeto:
 ```
 npm install -g json-server localtunnel
 
@@ -54,6 +55,7 @@ Para rodar o projeto completo, você precisará de 3 terminais abertos:
 ### Passo 1: Iniciar o Servidor de Dados
 No Terminal 1, rode:
 ```
+cd backend
 json-server --watch database.json --port 3000
 
 ```
@@ -69,6 +71,7 @@ lt --port 3000
 ### Passo 3: Iniciar o Aplicativo
 No Terminal 3, rode:
 ```
+cd frontend
 npx expo start
 
 ```
