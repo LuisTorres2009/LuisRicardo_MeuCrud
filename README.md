@@ -54,7 +54,7 @@ Para rodar o projeto completo, você precisará de 3 terminais abertos:
 ### Passo 1: Iniciar o Servidor de Dados
 No Terminal 1, rode:
 ```
-npx json-server --watch database.json --port 3000
+json-server --watch database.json --port 3000
 
 ```
 
