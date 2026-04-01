@@ -350,6 +350,5 @@
       "email": "otavio50@email.com.br",
       "phone": "(19) 99999-0050"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }

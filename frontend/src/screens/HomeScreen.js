@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { View, Text, FlatList, TextInput, ActivityIndicator, Alert, TouchableOpacity } from "react-native";
 import styles from "../styles/styles";
 import { getPeople, deletePerson } from "../servers/peopleCrud";
+// Importando os ícones do Expo
+import { MaterialIcons } from '@expo/vector-icons'; 
 
 export default function HomeScreen({ navigation }) {
   const [people, setPeople] = useState([]);
@@ -82,19 +84,19 @@ export default function HomeScreen({ navigation }) {
 
       <View style={styles.cardActions}>
         <TouchableOpacity
-          style={styles.editButton}
           onPress={() => navigation.navigate("AddEdit", { person: item })}
+          style={{ padding: 10 }}
         >
-          <Text style={styles.buttonText}>Editar</Text>
+          <MaterialIcons name="edit" size={24} color="#af874cff" />
         </TouchableOpacity>
 
-        <View style={{ height: 5 }} />
+        <View style={{ width: 10 }} />
 
         <TouchableOpacity
-          style={styles.deleteButton}
           onPress={() => handleDelete(item.id)}
+          style={{ padding: 10 }}
         >
-          <Text style={styles.buttonText}>Apagar</Text>
+          <MaterialIcons name="delete" size={24} color="#412905ff" />
         </TouchableOpacity>
       </View>
     </View>

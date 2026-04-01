@@ -1,2 +1,2 @@
 // URL gerada pelo Localtunnel
-export const API_URL = "https://evil-news-cross.loca.lt";
+export const API_URL = "https://evil-ants-fix.loca.lt";

@@ -58,8 +58,10 @@ export default StyleSheet.create({
   },
 
   cardActions: {
-    justifyContent: "space-around",
-    marginLeft: 10
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    paddingHorizontal: 10,
   },
 
   name: {
