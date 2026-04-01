@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação de gerenciamento de contatos (CRUD) desenvolvida em React Native. O aplicativo consome uma API REST fake utilizando json-server e localtunnel, implementando funcionalidades avançadas de navegação, busca e tratamento de estados para alcançar a Menção MB.
 
-Link do vídeo: 
+Link do vídeo: https://drive.google.com/file/d/1Bshde4W46_tOTckn7fFyNUq56EJn3e_z/view?usp=sharing 
 
 ## 🚀 Desafios Implementados
 
